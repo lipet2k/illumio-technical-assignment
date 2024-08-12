@@ -15,7 +15,7 @@ To inspect the outputs run (for reference see [docs.docker.com/reference/cli/doc
 ```
 docker exec -it illumio sh
 ```
-The outputs will be found in the `/outputs` directory. If they are missing run `poetry run python3 src/app.py`.
+The outputs will be found in the `/outputs` directory. If they are missing run `poetry run python3 src/app.py`
 
 ## Tests
 To run the tests inspect the Docker container and run:
