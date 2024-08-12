@@ -2,13 +2,15 @@
 name = "illumio"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Peter Li"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
 pytest = "^8.3.2"
 
+[tool.pytest.ini_options]
+pythonpath = "src"
 
 [build-system]
 requires = ["poetry-core"]

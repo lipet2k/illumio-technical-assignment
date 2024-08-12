@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  illumio:
+    build: .
+    command: tail -F anything
+    restart: no
+    container_name: illumio
+    volumes:
+      - data:/data
+
+
+volumes:
+  data:

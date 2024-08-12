@@ -1,3 +1,5 @@
 .env
-output/
+.pytest_cache
+.DS_Store
+**/output/
 **/__pycache__/
